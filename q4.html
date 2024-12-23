@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Question4</h3>
+    <h3>4.Count Vowels and Consonants: Input: 'hello' | Output: Vowels: 2, Consonants: 3.</h3>
+    <script>
+        // 4.Count Vowels and Consonants: Input: 'hello' | Output: Vowels: 2, Consonants: 3 .
+
+function countVowelsAndConsonants() {
+    let n = "hello";
+    let vowels = 0;
+    let Consonants = 0;
+    for (let i = 0; i < n.length; i++) {
+        if (n[i] === "a" || n[i] === "i" || n[i] === "e" || n[i] === "o" || n[i] === "u") {
+            vowels++;
+        } else {
+            Consonants++;
+        }
+    }
+    console.log(vowels);
+    console.log(Consonants);
+}
+
+    </script>
+</body>
+</html>

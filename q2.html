@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>2.Check Palindrome: Input: 'radar' | Output: True .</h3>
+    <script>
+        function palindrome() {
+            let str = "radar"
+            reverse = "";
+            for (let i = str.length - 1; i >= 0; i--) {
+                reverse += str[i];
+            }
+        
+            if (str === reverse) {
+                console.log(true)
+            } else {
+                console.log(false)
+            }
+        
+        }
+        </script>
+</body>
+</html>

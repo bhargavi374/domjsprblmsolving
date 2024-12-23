@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Question5</h3>
+    <h3>5.Change Case: Input: 'Hello' | Output: 'hELLO' .</h3>
+    <script>
+        // 5.Change Case: Input: 'Hello' | Output: 'hELLO' .
+
+function changeCase() {
+    let n = "Hello";
+    let v = "";
+    for (let i = 0; i < n.length; i++) {
+        if (n[i] === n[i].toUpperCase()) {
+            v = v + n[i].toLowerCase()
+        } else {
+            v = v + n[i].toUpperCase();
+        }
+    }
+    console.log(v);
+}
+    </script>
+</body>
+</html>

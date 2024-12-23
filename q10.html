@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>10. Replace a Character: Input: 'hello', 'l', 'z' | Output: 'hezzo'.</h3> 
+<script>
+    function replace() {
+        let n = "hello"
+        let o = "";
+        for (let i = 0; i < n.length; i++) {
+            if (n[i] === "l") {
+                o += "z"
+            } else {
+                o += n[i]
+            }
+        }
+        console.log(o);
+    }
+</script>
+</body>
+</html>
